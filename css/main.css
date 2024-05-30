@@ -1,0 +1,100 @@
+/*
+MIS ESTILOS
+*/
+.logo{
+    height: 50px;
+    transition: transform 0.3s ease;
+   
+   
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+header{
+    /*Fondo*/
+    background: linear-gradient(rgba(34,34,34,0.75),rgba(44,62,80,.7)),url('img/primero.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.infoF1 {
+    text-align: justify;
+    font-size: 23px;
+    padding-bottom: 10px;
+    color: red;
+    
+}
+
+.img-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 15px;
+}
+
+.img {
+    width: 600px;
+    margin: auto;
+}
+
+.que {
+    text-align: justify;
+}
+
+
+
+.person-img {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.person-img:hover {
+    transform: scale(1.1);
+}
+
+.person-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.person-name:hover {
+    color: #E10600;
+}
+.segundo{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    padding-top: 10px;
+    margin-bottom: -50px;
+}
+
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: red;
+    opacity: 1;
+  }
+  
+  hr.divider-light {
+    background-color: #fff;
+  }
+
+h4{
+    color: #040660;
+    padding-top: 100px;
+}
+
+h3{
+    margin-top: -100px;
+}
+
